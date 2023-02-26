@@ -54,7 +54,7 @@ model.summary()
 model.compile(optimizer='adam', loss='mean_squared_error')
 model.fit(xtrain, ytrain, batch_size=1, epochs=30)
 
-"""import numpy as np
+import numpy as np
 
 features = np.array([[177.089996, 180.419998, 177.070007, 74919600]])
-model.predict(features)"""
+model.predict(features)
